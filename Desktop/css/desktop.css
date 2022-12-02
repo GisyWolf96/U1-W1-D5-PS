@@ -1,0 +1,265 @@
+/* Your styles here */
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #393d31;
+}
+/* Header */
+.logo-div{
+    background-color: black;
+    padding: 0;
+    width: 100%;
+    height: 116px;
+    text-align: left;
+}
+
+.logo1{
+    width: 150px;
+    padding: 35px;
+    
+    
+    
+
+}
+.head-div{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    height: 390px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+
+h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    padding-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 25px;
+
+    line-height: 1;
+}
+.p1{
+    padding-left: 240px;
+    padding-right: 240px;
+    line-height: 1.65;
+}
+.p-general{
+    padding-left: 20px;
+    padding-right: 80px;
+    line-height: 1.65;
+}
+.lets-go{
+    background-color: #f04c2f;
+    border-radius: 5px;
+    width: fit-content;
+    padding-top: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    margin:auto;
+    margin-top: 30px;
+}
+.lets-go:hover{
+    background-image: linear-gradient(to right, #25a2c3, #E93F58) ;
+}
+.head-link{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    
+}
+
+/*MAIN*/
+.main-div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.round-img{
+    width: 50%;
+    /*border: 1px solid;*/
+    height: 500px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+.list-div{
+    padding-top: 50px;
+    width: 50%;
+    /*border: 1px solid;*/
+    height: 500px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 25px;
+    padding-left: 20px;
+
+}
+.sott2{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+}
+.circle{
+    border-radius: 100%;
+    margin-top: 0px;
+    width: 450px;
+    margin-bottom: 20px;
+    height: 450px;
+}
+.flip-circle{
+    background-color: transparent;
+    perspective: 1000px;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 50px;
+    text-align: right;
+    margin-left: 160px;
+}
+.flip-circle-inner{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.flip-circle:hover .flip-circle-inner{
+    transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.front{
+    background-color: transparent;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+.red-box{
+    height: 330px;
+    background-color: #e22d0e;
+    color: white;
+    margin-top: 55px;
+    margin-bottom: 80px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 55px;
+    font-size: 2.2rem;
+    padding-bottom: 30px;
+}
+blockquote{
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.65;
+    font-style: italic;
+}
+cite{
+    display: block;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+.small-pp{
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+}
+/*schede*/
+#schede{
+
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-justify-content:center;
+    justify-content:center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+.immagini{
+    
+    width: 400px;
+    height: 280px;
+   
+    }
+/*bordo immagini*/
+.bordo{
+    
+    width: 400px;
+    border: 1px solid #dee1e3;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    
+
+}
+/*FOOTER*/
+
+.foot-div{
+    height: 400px;
+    background-color: #25a2c3;
+    color: white;
+    margin-top: 25px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.contacts{
+    text-decoration: underline;
+    color: #c8e7f0;
+}
+.foot-p{
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 1rem;
+    padding-left: 120px;
+}
+.contacts2{
+    text-decoration: none;
+    color: #c8e7f0;
+    
+}
+hr{
+    width: 220px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    
+    
+    
+}
