@@ -13,7 +13,7 @@ body {
   background-color: black;
   padding: 0;
   width: 100%;
-  height: 116px;
+  height: 120px;
   text-align: left;
 }
 
@@ -24,7 +24,7 @@ body {
 .head-div {
   background-image: url(../images/banner.jpg);
   background-position: center;
-  height: 390px;
+  height: 400px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ cite {
 }
 /*schede*/
 .schede {
-  width: 416px;
+  width: 418px;
   border: 1px solid #dee1e3;
   margin-top: 20px;
   margin-left: 20px;
@@ -210,7 +210,7 @@ cite {
 }
 
 .immagini {
-  width: 416px;
+  width: 418px;
   height: 280px;
 }
 
